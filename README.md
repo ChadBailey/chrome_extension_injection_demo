@@ -1,6 +1,6 @@
 ## Chrome Extension with different JS injection techniques
 
-This is a WORKING chrome extension which demonstrates a few different JavaScript injection techniques. It is designed to let you
+This is a WORKING chrome extension which demonstrates a few different JavaScript injection techniques. It is designed to let you basically just copy+paste your code into the appropriate section with very little manual manipulation necessary.
 
 ### Setup
 

@@ -9,7 +9,7 @@ This is a WORKING chrome extension which demonstrates a few different JavaScript
 3. Toggle developer mode in top-right
 4. Click "Load Unpacked", browse to project and open.
 
-## Why?
+### Why?
 
 It took me much longer than needed to merely inject some javascript into some websites. I did find plenty of examples and documentation online, but all of it was either incomplete, incorrect, or outdated and so on.
 

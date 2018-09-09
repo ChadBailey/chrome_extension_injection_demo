@@ -1,4 +1,4 @@
-//Permissions: "http*://*/*"
+//Permissions: "http://*/*", "https://*/*"
 alert('onready.js loaded.\n\n' +
     'Description: This is loaded via the chrome.tabs.onUpdated listener, when changeInfo.status is equal to "completed". In other words, when the page finishes loading. This can be adjusted to match any criteria of course, just look at injector.js\n' +
     'Advantages: website functions should be available.\n' +

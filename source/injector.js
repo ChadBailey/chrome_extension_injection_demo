@@ -1,5 +1,5 @@
 // Injection when page fully loaded
-//Permissions: "http*://*/*"
+//Permissions: "http://*/*", "https://*/*"
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     // alert( 'chrome.tabs.onUpdated triggered.\n' +
     //     'TabId:\n' + JSON.stringify(tabId,null,'\t') + '\n\n' +
@@ -26,7 +26,7 @@ chrome.tabs.onActivated.addListener(function(activeInfo) {
   });
 
 // Run when addon icon is clicked
-// Permissions: activeTab or "http*://*/*"
+// Permissions: activeTab or "http://*/*", "https://*/*"
 chrome.browserAction.onClicked.addListener(function (tab) {
 	chrome.tabs.executeScript(tab.id, {
 		file: 'onclick.js'

@@ -1,8 +1,9 @@
 {
 	"name": "Injector Demo",
-	"version": "0.0.1",
+	"version": "0.0.0.1",
 	"manifest_version": 2,
 	"description": "Minimum viable chrome extension for different injection styles",
+	"homepage_url":"https://github.com/ChadBailey/chrome_extension_injection_demo",
 	"browser_action": {
 		"default_icon": "icon.png"
 	},

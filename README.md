@@ -7,7 +7,7 @@ This is a WORKING chrome extension which demonstrates a few different JavaScript
 1. Clone or download/extract project
 2. Visit chrome://extensions
 3. Toggle developer mode in top-right
-4. Click "Load Unpacked", browse to project and open.
+4. Click "Load Unpacked", browse to project and open manifest.json.
 
 ### Why?
 
